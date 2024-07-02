@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: orangered;
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.Combo1, .Combo2, .Combo3, .Combo4{
+    width: 700px;
+    border: 3px solid orangered;
+    margin: 50px auto;
+    padding: 30px 30px 60px;
+    position: relative;
+    
+}
+
+.numeros{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 23px;
+    background-color: #ff1700;
+    color: #fff700;
+    border-radius: 50%;
+    padding-top: 10px;
+    position: absolute;
+    top: -45px;
+    left: -25px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 10px auto 20px auto;
+}
+
+.descricao {
+    font-family: sans-serif;
+    font-size: 17px;
+    margin: 0px auto 15px auto;
+}
+
+.precos{
+    font-family: sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #ff1700;
+    color: #fff700;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -20px;
+    right: 30px;
+}
